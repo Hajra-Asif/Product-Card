@@ -202,7 +202,7 @@ button {
 @media only screen and (max-width: 1150px) {
     .parent{
         width: 50vw;
-        height: 650px;
+        height: 680px;
     }
     .image{
         width: 45%;
@@ -257,14 +257,22 @@ button {
 }
 @media only screen and (max-width: 510px){
     .parent{
-        width: 80vw;
+        width: 90vw;
         height: 1100px;
     }
 }
-/* @media only screen and (max-width: 620px) and (min-width: 380px){
-    /* .box img{
+@media only screen and (max-width: 620px) and (min-width: 380px){
+    .box img{
         width: 50%;
         height: 50%;
         margin: 0 auto;
 
-    } */
+    }
+    .parent{
+        width: 90vw;
+        height: 1100px;
+    }
+    .img img{
+        left: 3%;
+    }
+}
